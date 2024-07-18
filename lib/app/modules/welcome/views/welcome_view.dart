@@ -35,9 +35,9 @@ class WelcomeView extends GetView<WelcomeController> {
             child: SizedBox(
               width: double.infinity,
               child: Container(
-                height: Get.height / 1.55,
+                height: Get.height / 1.4,
                 padding:
-                    const EdgeInsets.symmetric(vertical: 70, horizontal: 30),
+                    const EdgeInsets.symmetric(vertical: 30, horizontal: 30),
                 decoration: BoxDecoration(
                     color: AppColors.primaryColor,
                     borderRadius: const BorderRadius.only(

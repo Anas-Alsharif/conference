@@ -1,4 +1,5 @@
 import 'package:conference/app/routes/app_pages.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
@@ -309,6 +310,7 @@ class HomeView extends GetView<HomeController> {
                           Text("Day 3: By invitation Only 08:30 - 14:00"),
                         ],
                       ).marginSymmetric(horizontal: 33),
+                      kIsWeb ? const SizedBox() :
                       Container(
                         height: 200,
                         margin: const EdgeInsets.all(20),

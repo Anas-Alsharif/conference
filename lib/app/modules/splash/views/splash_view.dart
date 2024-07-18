@@ -38,9 +38,9 @@ class SplashView extends GetView<SplashController> {
                   children: [
                     Image.asset(AppImages.fafLogo, width: 300),
                     const SizedBox(height: 30),
-                    Text("Elevation Global Connectivity".tr,
+                    Text("Elevation\nGlobal\nConnectivity".tr,
                         style: const TextStyle(
-                            fontWeight: FontWeight.w900, fontSize: 50)),
+                            fontWeight: FontWeight.w900, fontSize: 40)),
                     const Divider(height: 50),
                     Text("WHEN & WHERE".tr,
                         style: TextStyle(color: AppColors.greenColor)),
